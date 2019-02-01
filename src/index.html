@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles\journal.css">
+    <title>Daily Journal</title>
+</head>
+<body>
+
+ <h1>Daily Journal</h1>
+
+
+    
+    
+    <form action="">
+        <fieldset>
+            <label for="journalDate">Date</label>
+            <input type="date" name="journalDate" id="journalDate">
+        </fieldset>
+
+        <fieldset>
+            <label for="journal">Subjects Covered</label>
+            <input type="text" id="journalSubjects">
+        </fieldset>
+
+        <fieldset>
+            <label for="journal">Journal Entry</label>
+            <textarea name="journal" id="journalEntry" cols="20" rows="7"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <label for="journal">Mood</label>
+            <select name="journal" id="journalValue">
+                    <option value="happy">happy</option>
+                    <option value="sad">sad</option>
+                    <option value="tired">tired</option>
+                    <option value="energetic">energetic</option>
+                    <option value="llama">i feel like a llama</option>
+                    <option value="drunk">drunk & trolling</option>
+                    <option value="not-drunk">not-drunk</option>
+            </select>
+            
+
+        </fieldset>
+
+        
+    
+       
+    
+    
+    
+    </form>
+
+    <button id="submitButton" type="submit">Submit Journal Entry</button>
+
+
+    <!-- <form name="frm1" method="post" onsubmit="alert('you submitted your entry')" onsubmit="return addToJournal">
+        
+        <input type="submit" value="Submit">
+    </form> -->
+
+    <div id="outputArea"></div>
+
+
+   
+
+  
+    <script src="scripts\journal.js "></script>
+
+    
+
+
+
+   
+
+</body>
+</html>
